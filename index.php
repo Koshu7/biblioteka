@@ -40,5 +40,7 @@
     ?>
   </table>
   
+  <h3><a href="dodavanje.html">Dodavanje autora</a></h3>
+  <h3><a href="dodavanjeknjiga.php">Dodavanje knjiga</a></h3>
 </body>
 </html>

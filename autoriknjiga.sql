@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.2
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 29, 2020 at 12:13 PM
+-- Generation Time: Jun 06, 2020 at 09:45 PM
 -- Server version: 10.4.11-MariaDB
--- PHP Version: 7.2.26
+-- PHP Version: 7.4.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -42,7 +41,8 @@ INSERT INTO `autor` (`id`, `ime`, `prezime`) VALUES
 (1, 'Ivo', 'Andric'),
 (2, 'Mesa', 'Selimovic'),
 (3, 'Den', 'Brown'),
-(4, 'Miroslav', 'Krleza');
+(4, 'Miroslav', 'Krleza'),
+(5, 'Djoko', 'Stanic');
 
 -- --------------------------------------------------------
 
@@ -117,7 +117,7 @@ ALTER TABLE `knjiga`
 -- AUTO_INCREMENT for table `autor`
 --
 ALTER TABLE `autor`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `knjiga`
