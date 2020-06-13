@@ -2,11 +2,10 @@
 
 include_once 'db.php';
 
-// $id = mysqli_real_escape_string($conn, $_GET['id']);
+$id = $_GET['id'];
+
+$query = mysqli_query($conn,"DELETE FROM knjiga WHERE id='$id';");
 
 ?>
-<script type="text/javascript">
-  window.alert(1);
-  window.location.replace('index.php');
-</script>
+
 

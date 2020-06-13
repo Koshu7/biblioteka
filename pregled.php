@@ -3,7 +3,6 @@
 include_once 'db.php';
 
 if ($query = mysqli_query($conn, "SELECT * FROM tabela")){
-  echo gettype($query);
 } else {
   echo $conn->error;
 }
