@@ -12,7 +12,8 @@ if(isset($_POST['dodaj'])){
     ('$naslov','$izdavac','$godina','$autor_id');");
 }
 if(isset($_POST['izmjena'])){
-  $query = mysqli_query($conn, "UPDATE knjiga SET naslov='$naslov', izdavac='$izdavac',godina='$godina',autor_id='$autor_id' WHERE id=autor.id");
+  $id = $_POST['knjiga_id'];
+  $query = mysqli_query($conn, "UPDATE knjiga SET naslov='$naslov', izdavac='$izdavac',godina='$godina',autor_id='$autor_id' WHERE id='$id';");
 }
 
 header('Location: index.php');

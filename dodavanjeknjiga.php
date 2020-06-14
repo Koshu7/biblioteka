@@ -44,6 +44,7 @@ if ($query = mysqli_query($conn, "SELECT * FROM autor")){
       <label for="godina">Godina  </label>
       <input type="text" name="godina" id="godina" value="<?php echo $podaci['godina'];?>">
       <hr>
+      <input type="hidden" name="knjiga_id" value="<?php echo $podaci['id']; ?>">
       <input type="submit" name="izmjena" value="Izmijeni autora">
     <?php } else{ ?>
       <label for="naslov">Naslov  </label>

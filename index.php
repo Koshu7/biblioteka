@@ -8,10 +8,8 @@
 </head>
 <body>
   <h1>Autori i Knjige</h1>
-  
-  <a href="brisanje.php">Brisanje</a>
 
-  <br><br>
+  <br>
   <hr>
   <table>
     <tr>
